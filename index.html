@@ -16,22 +16,29 @@
       Carousel d'images musicales
     </h2>
     <div class="carousel__container" role="region" aria-live="polite">
-      <div class="carousel__item">
+      <div id="ecran-1" class="carousel__item">
         <img src="/assets/img/agenda-01.avif" alt="Image musique 1" />
       </div>
-      <div class="carousel__item">
+      <div id="ecran-2" class="carousel__item">
         <img src="/assets/img/agenda-02.avif" alt="Image musique 2" />
       </div>
-      <div class="carousel__item">
+      <div id="ecran-3" class="carousel__item">
         <img src="/assets/img/agenda-03.avif" alt="Image musique 3" />
       </div>
-      <div class="carousel__item">
+      <div id="ecran-4" class="carousel__item">
         <img src="/assets/img/agenda-04.avif" alt="Image musique 4" />
       </div>
-      <div class="carousel__item">
+      <div id="ecran-5" class="carousel__item">
         <img src="/assets/img/agenda-05.avif" alt="Image musique 5" />
       </div>
     </div>
+    <ul class="caroussel_liste-liens">
+      <li><a href="#ecran-1" :class="{actif:hrefCourant==='#ecran-1'} class=" caroussel_lien">Galaxie 1</a></li>
+      <li><a href="#ecran-2" :class="{actif:hrefCourant==='#ecran-2'} class=" caroussel_lien">Galaxie 2</a></li>
+      <li><a href="#ecran-3" :class="{actif:hrefCourant==='#ecran-3'} class=" caroussel_lien">Galaxie 3</a></li>
+      <li><a href="#ecran-4" :class="{actif:hrefCourant==='#ecran-4'} class=" caroussel_lien">Galaxie 4</a></li>
+      <li><a href="#ecran-5" :class="{actif:hrefCourant==='#ecran-5'} class=" caroussel_lien">Galaxie 5</a></li>
+    </ul>
     <div class="carousel__controls">
       <button class="carousel__button carousel__button--prev" aria-label="Défiler vers la gauche">
         <img src="/assets/icones/icon_arrowcarrousel.svg" alt="fleche gauche" />

@@ -80,3 +80,13 @@ Les margin négatifs à gauche et à droite corresponde à l'éespace entre le n
   display: block;
   /* Affiche l'image comme un bloc - https://developer.mozilla.org/fr/docs/Web/CSS/display */
 }
+
+.caroussel_liste-liens {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  gap: 1rem;
+
+}
