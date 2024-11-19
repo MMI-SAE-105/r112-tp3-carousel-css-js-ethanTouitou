@@ -1,6 +1,6 @@
-- nom :
-- prénom :
-- URL Netlify :
+- nom : TOUITOU
+- prénom : Ethan
+- URL Netlify : https://elegant-macaron-c34f30.netlify.app
 
 # Travail
 
